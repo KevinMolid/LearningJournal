@@ -36,7 +36,7 @@ header {
 
 .logo-img {
     display: block;
-    width: 20px;
+    width: 18px;
     margin-right: 0.5em;
 }
 
@@ -49,7 +49,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 1em;
+    gap: 0.5em;
 }
 
 nav ul li {
@@ -108,6 +108,32 @@ nav ul li:hover {
     z-index: 1;
     margin: 0;
     padding: 0 20px 25px;
+}
+
+
+/* ---------- ABOUT SECTION ---------- */
+.about-section {
+    padding: 20px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.avatar-img {
+    width: 100vw;
+    max-width: 182px;
+    height: 100vw;
+    max-height: 182px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* ---------- LEARNED SECTION ---------- */
+.learned-section {
+    padding: 20px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 /* Article section */
